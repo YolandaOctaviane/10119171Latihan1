@@ -833,7 +833,7 @@
                     android:layout_height="@dimen/dimen24dp"
                     android:layout_marginLeft="@dimen/dimen42dp"
                     android:layout_marginTop="@dimen/dimen24dp"
-                    android:src="@drawable/vector"/>
+                    android:src="@drawable/izin"/>
 
                 <ImageView
                     android:id="@+id/fitur2"
@@ -842,7 +842,7 @@
                     android:layout_marginLeft="@dimen/dimen90dp"
                     android:layout_marginTop="@dimen/dimen24dp"
                     android:layout_toRightOf="@id/fitur1"
-                    android:src="@drawable/vector1"/>
+                    android:src="@drawable/kehadiran"/>
 
                 <ImageView
                     android:id="@+id/fitur3"
@@ -851,7 +851,7 @@
                     android:layout_marginLeft="@dimen/dimen98dp"
                     android:layout_marginTop="@dimen/dimen24dp"
                     android:layout_toRightOf="@id/fitur2"
-                    android:src="@drawable/vector2" />
+                    android:src="@drawable/laporan" />
 
                 <ImageView
                     android:id="@+id/fitur4"
@@ -860,7 +860,7 @@
                     android:layout_below="@+id/fitur1"
                     android:layout_marginLeft="@dimen/dimen42dp"
                     android:layout_marginTop="@dimen/dimen48dp"
-                    android:src="@drawable/vector3" />
+                    android:src="@drawable/agenda" />
 
                 <ImageView
                     android:id="@+id/fitur5"
@@ -870,7 +870,7 @@
                     android:layout_marginLeft="@dimen/dimen98dp"
                     android:layout_marginTop="@dimen/dimen48dp"
                     android:layout_toRightOf="@id/fitur4"
-                    android:src="@drawable/vector4"/>
+                    android:src="@drawable/booking"/>
 
                 <ImageView
                     android:id="@+id/fitur6"
@@ -880,7 +880,7 @@
                     android:layout_marginLeft="@dimen/dimen98dp"
                     android:layout_marginTop="@dimen/dimen48dp"
                     android:layout_toRightOf="@id/fitur5"
-                    android:src="@drawable/vector5"/>
+                    android:src="@drawable/wiki"/>
 
                 <TextView
                     android:id="@+id/fitur1.1"
