@@ -5,4 +5,8 @@
     <string name="des2">Jabar Digital Service</string>
     <string name="karyawan">Dias Eka Fredianto, S.Kom, B.IT</string>
     <string name="pekerjaan">UI Designer</string>
+    <string name="jamker">Jam Kerja Bulan Ini</string>
+    <string name="jam">130.53 JAM</string>
+    <string name="batasmin">Batas Minimun Jam Kerja 170 jam/bulan</string>
+    <string name="button1">Checkin</string>
 </resources>
