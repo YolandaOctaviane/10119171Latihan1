@@ -179,7 +179,7 @@
             android:orientation="vertical">
 
             <TextView
-                style="laporan"
+                style="@style/stylebold2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/dimen16dp"
@@ -513,7 +513,296 @@
                         android:layout_marginTop="@dimen/dimen2dp"
                         android:layout_marginBottom="@dimen/dimen24dp"
                         android:src="@drawable/kotak_hijau5" />
+                </RelativeLayout>
 
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen8dp">
+
+                    <ImageView
+                        android:id="@+id/kotak1.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_marginLeft="@dimen/dimen16dp"
+                        android:src="@drawable/kotak_hijau6" />
+
+                    <ImageView
+                        android:id="@+id/kotak2.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak1.2"
+                        android:src="@drawable/kotak_hijau7" />
+
+                    <ImageView
+                        android:id="@+id/kotak3.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak2.2"
+                        android:src="@drawable/kotak_hijau7" />
+
+                    <ImageView
+                        android:id="@+id/kotak4.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak3.2"
+                        android:src="@drawable/kotak_hijau1" />
+
+                    <ImageView
+                        android:id="@+id/kotak5.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak4.2"
+                        android:src="@drawable/kotak_hijau1" />
+
+                    <ImageView
+                        android:id="@+id/kotak6.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak1.2"
+                        android:layout_marginLeft="@dimen/dimen16dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:src="@drawable/kotak_hijau6" />
+
+                    <ImageView
+                        android:id="@+id/kotak7.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak2.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak6.2"
+                        android:src="@drawable/kotak_hijau1" />
+
+                    <ImageView
+                        android:id="@+id/kotak8.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak3.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak7.2"
+                        android:src="@drawable/kotak_hijau7" />
+
+                    <ImageView
+                        android:id="@+id/kotak9.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak3.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak8.2"
+                        android:src="@drawable/kotak_hijau1" />
+
+                    <ImageView
+                        android:id="@+id/kotak10.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak3.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak9.2"
+                        android:src="@drawable/kotak_hijau6" />
+
+                    <ImageView
+                        android:id="@+id/kotak11.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak6.2"
+                        android:layout_marginLeft="@dimen/dimen16dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:src="@drawable/kotak_hijau5" />
+
+                    <ImageView
+                        android:id="@+id/kotak12.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak7.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak11.2"
+                        android:src="@drawable/kotak_hijau7" />
+
+                    <ImageView
+                        android:id="@+id/kotak13.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak8.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak12.2"
+                        android:src="@drawable/kotak_hijau6" />
+
+                    <ImageView
+                        android:id="@+id/kotak14.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak9.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak13.2"
+                        android:src="@drawable/kotak_hijau1" />
+
+                    <ImageView
+                        android:id="@+id/kotak15.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak10.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak14.2"
+                        android:src="@drawable/kotak_hijau1" />
+
+                    <ImageView
+                        android:id="@+id/kotak16.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak11.2"
+                        android:layout_marginLeft="@dimen/dimen16dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:src="@drawable/kotak_hijau6" />
+
+                    <ImageView
+                        android:id="@+id/kotak17.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak12.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak16.2"
+                        android:src="@drawable/kotak_hijau1" />
+
+                    <ImageView
+                        android:id="@+id/kotak18.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak13.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak17.2"
+                        android:src="@drawable/kotak_hijau1" />
+
+                    <ImageView
+                        android:id="@+id/kotak19.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak14.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak18.2"
+                        android:src="@drawable/kotak_hijau1" />
+
+                    <ImageView
+                        android:id="@+id/kotak20.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak15.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak19.2"
+                        android:src="@drawable/kotak_hijau6" />
+
+                    <ImageView
+                        android:id="@+id/kotak21.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak16.2"
+                        android:layout_marginLeft="@dimen/dimen16dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:src="@drawable/kotak_hijau7" />
+
+                    <ImageView
+                        android:id="@+id/kotak22.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak16.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak21.2"
+                        android:src="@drawable/kotak_abu" />
+
+                    <ImageView
+                        android:id="@+id/kotak23.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak18.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak22.2"
+                        android:src="@drawable/kotak_abu" />
+
+                    <ImageView
+                        android:id="@+id/kotak24.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak19.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak23.2"
+                        android:src="@drawable/kotak_abu" />
+
+                    <ImageView
+                        android:id="@+id/kotak25.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak20.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak24.2"
+                        android:src="@drawable/kotak_abu" />
+
+                    <ImageView
+                        android:id="@+id/kotak26.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak21.2"
+                        android:layout_marginLeft="@dimen/dimen16dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:src="@drawable/kotak_abu" />
+
+                    <ImageView
+                        android:id="@+id/kotak27.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak22.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak26.2"
+                        android:src="@drawable/kotak_abu" />
+
+                    <ImageView
+                        android:id="@+id/kotak28.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak23.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak27.2"
+                        android:src="@drawable/kotak_abu" />
+
+                    <ImageView
+                        android:id="@+id/kotak29.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak24.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak28.2"
+                        android:src="@drawable/kotak_abu" />
+
+                    <ImageView
+                        android:id="@+id/kotak30.2"
+                        android:layout_width="@dimen/dimen28dp"
+                        android:layout_height="@dimen/dimen28dp"
+                        android:layout_below="@+id/kotak25.2"
+                        android:layout_marginLeft="@dimen/dimen2dp"
+                        android:layout_marginTop="@dimen/dimen2dp"
+                        android:layout_toRightOf="@+id/kotak29.2"
+                        android:src="@drawable/kotak_abu" />
 
                 </RelativeLayout>
 
