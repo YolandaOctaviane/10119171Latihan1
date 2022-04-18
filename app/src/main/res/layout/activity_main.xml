@@ -14,6 +14,7 @@
 
 
         <LinearLayout
+            android:id="@+id/Perusahaan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dimen16dp"
@@ -35,7 +36,7 @@
                 android:orientation="vertical">
 
                 <TextView
-                    style="@style/digiteam"
+                    style="@style/stylebold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="@dimen/dimen16dp"
@@ -55,10 +56,50 @@
                     android:layout_marginTop="@dimen/dimen2dp"
                     android:layout_marginBottom="@dimen/dimen17dp"
                     android:text="@string/des2" />
-
-
             </LinearLayout>
         </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Karyawan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Perusahaan"
+            android:layout_marginTop="@dimen/dimen24dp"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageView
+                android:layout_width="@dimen/dimen44dp"
+                android:layout_height="@dimen/dimen44dp"
+                android:layout_marginLeft="@dimen/dimen16dp"
+                android:layout_weight="10"
+                android:src="@drawable/foto" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen48dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/dimen8dp"
+                android:layout_marginRight="84dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    style="stylebold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/karyawan" />
+
+                <TextView
+                    style="@style/profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pekerjaan" />
+            </LinearLayout>
+        </LinearLayout>
+        
+
+
     </RelativeLayout>
 
 

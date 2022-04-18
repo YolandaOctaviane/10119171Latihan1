@@ -12,7 +12,7 @@
         <item name="fontFamily">font/work_sans.ttf</item>
     </style>
 
-    <style name="digiteam" parent="Roboto_Medium">
+    <style name="stylebold" parent="Roboto_Medium">
         <item name="android:textColor">@color/digiteam</item>
         <item name="android:textSize">@dimen/font16</item>
         <item name="android:textStyle">bold</item>
@@ -21,6 +21,11 @@
     <style name="deskripsi" parent="Lato_Regular">
         <item name="android:textColor">@color/deskripsi</item>
         <item name="android:textSize">@dimen/font12</item>
+    </style>
+
+    <style name="profile" parent="Lato_Regular">
+        <item name="android:textColor">@color/digiteam</item>
+        <item name="android:textSize">@dimen/font14</item>
     </style>
 
 </resources>

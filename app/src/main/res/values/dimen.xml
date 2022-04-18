@@ -24,6 +24,7 @@
     <dimen name="dimen42dp">42dp</dimen>
     <dimen name="dimen44dp">44dp</dimen>
     <dimen name="dimen48dp">48dp</dimen>
+    <dimen name="dimen84dp">84dp</dimen>
 
     <dimen name="font12">12sp</dimen>
     <dimen name="font14">14sp</dimen>
