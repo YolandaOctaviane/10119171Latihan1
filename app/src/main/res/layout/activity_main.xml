@@ -803,15 +803,140 @@
                         android:layout_marginTop="@dimen/dimen2dp"
                         android:layout_toRightOf="@+id/kotak29.2"
                         android:src="@drawable/kotak_abu" />
-
                 </RelativeLayout>
-
             </LinearLayout>
-
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/ButtonCheckIn"
+                android:layout_width="291dp"
+                android:layout_height="@dimen/dimen38dp"
+                android:layout_marginLeft="@dimen/dimen16dp"
+                android:layout_marginTop="@dimen/dimen24dp"
+                android:layout_marginBottom="@dimen/dimen26dp"
+                android:text="@string/Laporan2" />
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/laporan"
+            android:layout_marginBottom="@dimen/dimen48dp"
+            android:orientation="vertical">
 
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/fitur1"
+                    android:layout_width="@dimen/dimen30dp"
+                    android:layout_height="@dimen/dimen24dp"
+                    android:layout_marginLeft="@dimen/dimen42dp"
+                    android:layout_marginTop="@dimen/dimen24dp"
+                    android:src="@drawable/Vector"/>
+
+                <ImageView
+                    android:id="@+id/fitur2"
+                    android:layout_width="@dimen/dimen30dp"
+                    android:layout_height="@dimen/dimen24dp"
+                    android:layout_marginLeft="@dimen/dimen90dp"
+                    android:layout_marginTop="@dimen/dimen24dp"
+                    android:layout_toRightOf="@id/fitur1"
+                    android:src="@drawable/Vector1"/>
+
+                <ImageView
+                    android:id="@+id/fitur3"
+                    android:layout_width="@dimen/dimen30dp"
+                    android:layout_height="@dimen/dimen24dp"
+                    android:layout_marginLeft="@dimen/dimen98dp"
+                    android:layout_marginTop="@dimen/dimen24dp"
+                    android:layout_toRightOf="@id/fitur2"
+                    android:src="@drawable/Vector2" />
+
+                <ImageView
+                    android:id="@+id/fitur4"
+                    android:layout_width="@dimen/dimen21dp"
+                    android:layout_height="@dimen/dimen24dp"
+                    android:layout_below="@+id/fitur1"
+                    android:layout_marginLeft="@dimen/dimen42dp"
+                    android:layout_marginTop="@dimen/dimen48dp"
+                    android:src="@drawable/Vector3" />
+
+                <ImageView
+                    android:id="@+id/fitur5"
+                    android:layout_width="@dimen/dimen30dp"
+                    android:layout_height="@dimen/dimen24dp"
+                    android:layout_below="@+id/fitur2"
+                    android:layout_marginLeft="@dimen/dimen98dp"
+                    android:layout_marginTop="@dimen/dimen48dp"
+                    android:layout_toRightOf="@id/fitur4"
+                    android:src="@drawable/Vector4"/>
+
+                <ImageView
+                    android:id="@+id/fitur6"
+                    android:layout_width="@dimen/dimen30dp"
+                    android:layout_height="@dimen/dimen24dp"
+                    android:layout_below="@+id/fitur2"
+                    android:layout_marginLeft="@dimen/dimen98dp"
+                    android:layout_marginTop="@dimen/dimen48dp"
+                    android:layout_toRightOf="@id/fitur5"
+                    android:src="@drawable/Vector5"/>
+
+                <TextView
+                    android:id="@+id/fitur1.1"
+                    android:layout_width="@dimen/dimen22dp"
+                    android:layout_height="@dimen/dimen20dp"
+                    android:layout_below="@+id/fitur1"
+                    android:layout_marginLeft="@dimen/dimen44dp"
+                    android:layout_marginTop="@dimen/dimen4dp"
+                    android:text="@string/izin" />
+
+                <TextView
+                    android:id="@+id/fitur2.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fitur2"
+                    android:layout_marginLeft="@dimen/dimen146dp"
+                    android:layout_marginTop="@dimen/dimen4dp"
+                    android:text="@string/kehadiran" />
+
+                <TextView
+                    android:id="@+id/fitur3.1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fitur3"
+                    android:layout_marginLeft="@dimen/dimen280dp"
+                    android:layout_marginTop="@dimen/dimen4dp"
+                    android:text="@string/laporan" />
+
+                <TextView
+                    android:id="@+id/fitur4.1"
+                    android:layout_width="@dimen/dimen48dp"
+                    android:layout_height="@dimen/dimen20dp"
+                    android:layout_below="@+id/fitur4"
+                    android:layout_marginLeft="@dimen/dimen30dp"
+                    android:layout_marginTop="@dimen/dimen4dp"
+                    android:text="@string/Agenda" />
+
+                <TextView
+                    android:id="@+id/fitur5.1"
+                    android:layout_width="@dimen/dimen54dp"
+                    android:layout_height="@dimen/dimen20dp"
+                    android:layout_below="@+id/fitur5"
+                    android:layout_marginLeft="@dimen/dimen152dp"
+                    android:layout_marginTop="@dimen/dimen4dp"
+                    android:text="@string/booking" />
+
+                <TextView
+                    android:id="@+id/fitur6b"
+                    android:layout_width="@dimen/dimen28dp"
+                    android:layout_height="@dimen/dimen20dp"
+                    android:layout_below="@+id/fitur6"
+                    android:layout_marginLeft="@dimen/dimen290dp"
+                    android:layout_marginTop="@dimen/dimen8dp"
+                    android:text="@string/wiki" />
+            </RelativeLayout>
+        </LinearLayout>
     </RelativeLayout>
-
 
 </ScrollView>
