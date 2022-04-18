@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171Latihan1/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171Latihan1/app/src/main/res/drawable/bor_logo.xml" value="0.1" />
+        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171Latihan1/app/src/main/res/drawable/borderlogo.xml" value="0.1" />
+        <entry key="..\:/Users/burne/AndroidStudioProjects/10119171Latihan1/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>
