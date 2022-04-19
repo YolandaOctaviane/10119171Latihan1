@@ -3,7 +3,7 @@ package com.example.a10119171latihan1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
+// 18 April 2022 10119171 yolanda octaviane IF5
 public class MainActivity extends AppCompatActivity {
 
     @Override
